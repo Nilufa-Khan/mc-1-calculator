@@ -64,7 +64,7 @@ public class ScientificCalculator {
 			power = scientificCalculator.power(7,5);
 			sqrt = scientificCalculator.squareRoot(8);
 		} catch (CalculatorException e) {
-			throw new RuntimeException(e);
+			System.out.println("e = " + e);
 		}
 		System.out.println("ceil = " + ceil);
 		System.out.println("floor = " + floor);
